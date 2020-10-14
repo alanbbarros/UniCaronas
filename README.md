@@ -20,3 +20,5 @@ diretório de sua preferência:
 cd "diretorio de sua preferencia"
 git clone https://github.com/CS2020-1-CavaloTroia/UniCaronas
 ```
+
+![Diagrama arquitetural](https://raw.githubusercontent.com/CS2020-1-CavaloTroia/UniCaronas/master/arquitetura_UniCaronas.png?raw=true "Arquitetura")
