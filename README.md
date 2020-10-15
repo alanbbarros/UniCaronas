@@ -47,8 +47,8 @@ O layout da aplicação está disponível no Figma:
 As seguintes ferramentas são usadas na construção do projeto:
 
 - [ ] React Native versão xx
-- [ ] Python versão xx
-- [ ] Django versão xx
+- [ ] Python versão 3.6
+- [ ] Django versão 3.1.2
 - [ ] MongoDB versão xx
 - [ ] Heroku versão xx
 - [ ] Digital Ocean versão xx
@@ -71,7 +71,7 @@ Antes de dar início, certifique-se que tenha em sua máquina:
 - [ ] Banco de dados MongoBD versão xx ou superior
 - [ ] Node versão xx ou superior
 - [ ] Yarn versão xx ou superior
-- [ ] Python2 versão xx ou superior
+- [ ] Python versão 3.6 ou superior
 
 Além disso, é bom ter um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/).
 
@@ -88,6 +88,11 @@ $ git clone https://github.com/CS2020-1-CavaloTroia/UniCaronas
 
 Acesse a pasta do projeto no seu terminal/cmd
 $ cd server/UniCaronas
+
+Instale as dependências
+$ apt install python3-pip
+$ python -m pip install Django
+$ pip install djangorestframework
 
 Execute a criação do banco de dados
 $ python manage.py migrate
