@@ -48,6 +48,7 @@ As seguintes ferramentas são usadas na construção do projeto:
 
 - [ ] React Native versão xx
 - [ ] Python versão xx
+- [ ] Django versão xx
 - [ ] MongoDB versão xx
 - [ ] Heroku versão xx
 - [ ] Digital Ocean versão xx
@@ -81,23 +82,22 @@ Além disso, é bom ter um editor para trabalhar com o código, como [VSCode](ht
 
 ### Rodando o Backend
 
->TODO exemplo abaixo
 ```bash
 Clone este repositório
 $ git clone https://github.com/CS2020-1-CavaloTroia/UniCaronas
 
 Acesse a pasta do projeto no seu terminal/cmd
-$ cd app/UniCaronas
+$ cd server/UniCaronas
 
-Instale as dependências
-$ yarn
+Execute a criação do banco de dados
+$ python manage.py migrate
 
-Execute a aplicação em modo de desenvolvimento
-$ react-native run-is 
-ou
-$ react-native run-android
+Execute a aplicação
+$ python manage.py runserver
 
-A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+A aplicação será aberta na porta:8000 - acesse http://localhost:8000
+Caso queira especificar a porta utilize
+$ python manage.py runserver <port>
 ```
 
 #### Criando um Banco de Dados
