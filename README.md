@@ -14,7 +14,7 @@
  * [Layout](#-layout)
  * [Tecnologias](#-tecnologias)
  * [Desenvolvimento](#-desenvolvimento)
-  * [Arquitetura](#arquitetura)
+  	* [Arquitetura](#arquitetura)
  	* [Pré-requisitos](#pré-requisitos)
  	* [Rodando o Backend](#rodando-o-backend)
  	* [Rodando o Frontend](#rodando-o-frontend)
@@ -40,7 +40,7 @@ Projeto desenvolvido durante o curso de Construção de Software da Universidade
 
 ## 🎨 Layout
 
-O layout da aplicação está disponível no :	
+O layout da aplicação está disponível no Figma:
 
 ## 🛠 Tecnologias
 
@@ -58,11 +58,11 @@ As seguintes ferramentas são usadas na construção do projeto:
 ### Arquitetura
 
 - [ ] Diagrama Arquitetural
-<img src="https://raw.githubusercontent.com/CS2020-1-CavaloTroia/UniCaronas/master/arquitetura_UniCaronas.png" width="500">
+<img src="https://raw.githubusercontent.com/CS2020-1-CavaloTroia/UniCaronas/master/arquitetura_UniCaronas.png" width="800">
 
 - [ ] Diagrama de Tecnologias
 
-<img src="https://raw.githubusercontent.com/CS2020-1-CavaloTroia/UniCaronas/master/tecnologias_UniCaronas.png" width="500">
+<img src="https://raw.githubusercontent.com/CS2020-1-CavaloTroia/UniCaronas/master/tecnologias_UniCaronas.png" width="800">
 
 ### Pré-requisitos
 
@@ -76,28 +76,28 @@ Além disso, é bom ter um editor para trabalhar com o código, como [VSCode](ht
 
 #### Instalando o React Native
 
-1. Siga os passos no site do [React Native](https://reactnative.dev/docs/0.61/getting-started)
-2. Selecione o tipo de instalação **React Native CLI Quickstart** e o seu sistema operacional
+- [ ] Siga os passos no site do [React Native](https://reactnative.dev/docs/0.61/getting-started)
+- [ ] Selecione o tipo de instalação **React Native CLI Quickstart** e o seu sistema operacional
 
 ### Rodando o Backend
 
 >TODO exemplo abaixo
 ```bash
-# Clone este repositório
+Clone este repositório
 $ git clone https://github.com/CS2020-1-CavaloTroia/UniCaronas
 
-# Acesse a pasta do projeto no seu terminal/cmd
+Acesse a pasta do projeto no seu terminal/cmd
 $ cd app/UniCaronas
 
-# Instale as dependências
+Instale as dependências
 $ yarn
 
-# Execute a aplicação em modo de desenvolvimento
+Execute a aplicação em modo de desenvolvimento
 $ react-native run-is 
 ou
 $ react-native run-android
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
 #### Criando um Banco de Dados
@@ -114,21 +114,21 @@ Dados de Acesso:
 ### Rodando o Frontend
 
 ```bash
-# Clone este repositório
+Clone este repositório
 $ git clone https://github.com/CS2020-1-CavaloTroia/UniCaronas
 
-# Acesse a pasta do projeto no seu terminal/cmd
+Acesse a pasta do projeto no seu terminal/cmd
 $ cd app/UniCaronas
 
-# Instale as dependências
+Instale as dependências
 $ yarn
 
-# Execute a aplicação em modo de desenvolvimento
+Execute a aplicação em modo de desenvolvimento
 $ react-native run-is 
 ou
 $ react-native run-android
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
 ## 💡 Como contrubuir
