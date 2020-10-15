@@ -1,0 +1,30 @@
+{% extends "layout/app.html" %}
+
+{# Título da página #}
+{% block title %}{{ request.user.username }} - {% endblock %}
+
+{# Conteúdo #}
+{% block content %}
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2>Novo veículo</h2>
+                </div>
+            </div>
+            <form action="{% url 'web:vehicle-update' vehicle_id %}" method="post" class="was-validated">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-12">
+                        {% include 'profile/vehicle/form.html' %}
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <button class="btn btn-primary">Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
