@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for vehicle in profile.vehicles %}
+                {% for vehicle in vehicles %}
                     <div class="col-6 mb-4">
                         <div class="card">
                             <div class="card-header bg-white border-0 pb-0">
@@ -63,11 +63,10 @@
                                         <span class="text-truncate">{{ vehicle.maker }} {{ vehicle.model }}</span>
                                     </div>
                                     <div class="col-2 p-0">
-                                        <div class="dropdown dropleft">
+                                        <div class="dropdown">
                                             <button class="btn btn-link dropdown-toggle" type="button"
                                                     id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                                                     aria-expanded="false">
-                                                <i class="fas fa-ellipsis-v"></i>
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                 <a class="dropdown-item"

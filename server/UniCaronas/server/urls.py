@@ -1,19 +1,13 @@
-from django.contrib import admin
-from django.urls import path
-from .views import auth, views, profile
+from rest_framework.authtoken.views import obtain_auth_token
+from django.conf.urls import url
+from .api import profile
 
-app_name = "web"
+app_name = "api"
 urlpatterns = [
-    # Rotas para administração
-    path('admin/', admin.site.urls),
-    # Página de apresentação do sistema
-    path('', views.welcome, name="welcome"),
-    # Rotas para autenticação
-    path('login/', auth.page_login, name="login"),
-    path('logout/', auth.page_logout, name="logout"),
-    # Rotas em que apenas os usuários autenticados possuem acesso
-    path('home/', views.home, name="home"),
-    path('profile/', profile.page_profile, name="profile"),
-    path('vehicle/create/', profile.page_vehicle_create, name="vehicle-create"),
-    path('vehicle/<vehicle_id>/update/', profile.page_vehicle_update, name="vehicle-update"),
+    url('api/get-token/', obtain_auth_token, name='get_token'),
+    url('api/profile/$', profile.ApiProfile.as_view(), name='profile'),
+    url('api/vehicle/$', profile.ApiVehicle.as_view(), name='profile'),
+    url('api/local/$', profile.ApiLocal.as_view(), name='profile'),
+    url('api/schedule/$', profile.ApiSchedule.as_view(), name='profile'),
+    url('api/ride/$', profile.ApiRide.as_view(), name='profile'),
 ]

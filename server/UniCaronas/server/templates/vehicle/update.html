@@ -1,7 +1,7 @@
 {% extends "layout/app.html" %}
 
 {# Título da página #}
-{% block title %}{{ request.user.username }} - {% endblock %}
+{% block title %}{{ request.user.username }} | Veículos - {% endblock %}
 
 {# Conteúdo #}
 {% block content %}
@@ -16,7 +16,7 @@
                 {% csrf_token %}
                 <div class="row">
                     <div class="col-12">
-                        {% include 'profile/vehicle/form.html' %}
+                        {% include 'vehicle/form.html' %}
                     </div>
                 </div>
                 <div class="row mt-4">

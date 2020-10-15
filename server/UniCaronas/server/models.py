@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-# Modelagem da tabela de Veículo
 class Vehicle(models.Model):
     model = models.CharField(max_length=50, verbose_name="Modelo")
     maker = models.CharField(max_length=50, verbose_name="Fabricante")
@@ -22,7 +21,6 @@ class Vehicle(models.Model):
         return f"{self.maker} {self.model} - [{self.board.upper()}]"
 
 
-# Modelagem da tabela de Local
 class Local(models.Model):
     name = models.CharField(max_length=255, verbose_name="Nome")
     latitude = models.FloatField(verbose_name="Latitude")
@@ -36,7 +34,6 @@ class Local(models.Model):
         return self.name
 
 
-# Modelagem da tabela de Cronograma
 class Schedule(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
@@ -48,7 +45,6 @@ class Schedule(models.Model):
         return f"Cronograma de {self.user.get_username()}"
 
 
-# Modelagem do dia do Cronograma
 class Trip(models.Model):
     default_price = models.FloatField(verbose_name="Preço padrão", default=4)
     week_days = (
@@ -73,7 +69,6 @@ class Trip(models.Model):
         return self.schedule.__str__() + " - " + self.get_day_display()
 
 
-# Modelagem da tabela de Carona
 class Ride(models.Model):
     driver = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, verbose_name="Motorista")
     vehicle = models.ForeignKey(Vehicle, on_delete=models.SET_NULL, null=True, verbose_name="Veículo")
@@ -89,7 +84,6 @@ class Ride(models.Model):
         return f"Carona de {self.driver.get_username()} [{self.vehicle.__str__()}]"
 
 
-# Tabela de passageiro
 class Passanger(models.Model):
     passenger = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, verbose_name="Passageiro")
     ride = models.ForeignKey(Ride, on_delete=models.SET_NULL, null=True, verbose_name="Carona")
