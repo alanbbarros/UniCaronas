@@ -1,7 +1,7 @@
 <h1 align="center">UniCaronas
 </h1>
 <h3 align="center">
-🚘 Conectamos caronas com canoneiros da UFG de forma eficiente 🚘
+🚘 Conectamos caronas com caroneiros da UFG de forma eficiente 🚘
 </h3>
 <h4 align="center">
 	🚧 Em construção 🚧
