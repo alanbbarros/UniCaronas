@@ -147,4 +147,4 @@ Grupo Cavalo de Troia da turma de Construção de Software de 2020.1 da Universi
 
 ## Versões do README
 
-[Português 🇧🇷](./README.md) | [Inglês 🇺🇸](./README.md)
+[Português 🇧🇷](./README.md) | [Inglês 🇺🇸](./README-en.md)
