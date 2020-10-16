@@ -18,10 +18,9 @@
  	* [Pré-requisitos](#pré-requisitos)
  	* [Rodando o Backend](#rodando-o-backend)
  	* [Rodando o Frontend](#rodando-o-frontend)
- * [Como contrubuir](#-como-contribuir)
+ * [Como contribuir](#-como-contribuir)
  * [Autores](#-autores)
- * [Licença](#-licença)
-
+ 
 ## 💻 Sobre o projeto
 
 Este projeto é um aplicativo mobile que conecta motoristas e passageiros
@@ -30,7 +29,7 @@ podem oferecer caronas, visualizá-las ou solicitá-las a um motorista.
 
 >Projeto desenvolvido durante o curso de Construção de Software da Universidade Federal de Goiás.
 
-## ⚙️ Funcionalidades
+## 📱 Funcionalidades
 
 - [x] Estudantes matrículados na UFG tem acesso ao aplicativo móvel, onde podem:
 	- [x] visualizar caronas oferecidas por outros estudantes por perto
@@ -130,7 +129,7 @@ $ react-native run-android
 
 ```
 
-## 💡 Como contrubuir
+## 💡 Como contribuir
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
