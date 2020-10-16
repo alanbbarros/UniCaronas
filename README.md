@@ -28,7 +28,7 @@ Este projeto é um aplicativo mobile que conecta motoristas e passageiros
 universitários matrículados na Universidade Federal de Goiás. Os estudantes
 podem oferecer caronas, visualizá-las ou solicitá-las a um motorista.
 
-Projeto desenvolvido durante o curso de Construção de Software da Universidade Federal de Goiás.
+>Projeto desenvolvido durante o curso de Construção de Software da Universidade Federal de Goiás.
 
 ## ⚙️ Funcionalidades
 
@@ -40,7 +40,7 @@ Projeto desenvolvido durante o curso de Construção de Software da Universidade
 
 ## 🎨 Layout
 
-O layout da aplicação está disponível no Figma:
+O layout da aplicação está disponível no Figma [clicando aqui].
 
 ## 🛠 Tecnologias
 
@@ -128,7 +128,6 @@ $ react-native run-is
 ou
 $ react-native run-android
 
-A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
 ## 💡 Como contrubuir
@@ -137,7 +136,6 @@ A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ## 👨‍💻 Autores
 
