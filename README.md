@@ -45,13 +45,24 @@ O layout da aplicação está disponível no Figma [clicando aqui].
 
 As seguintes ferramentas são usadas na construção do projeto:
 
-- [ ] React Native versão xx
-- [ ] Python versão xx
-- [ ] Django versão xx
-- [ ] MongoDB versão xx
-- [ ] Heroku versão xx
-- [ ] Digital Ocean versão xx
-- [ ] Docker versão xx
+### Frontend
+- JavaScript
+- React Native 0.63.3
+
+Para o front-end da aplicação será utilizada a linguagem JavaScript juntamente  React Native 0.63. Se tratando de uma aplicação mobile,  as tecnologias citadas apresentam vários componentes que auxiliarão no desenvolvimento de uma aplicação de qualidade.
+
+Será utilizada uma REST - API para a comunicação com o server side.
+
+
+### Backend
+- Python 3.6
+- Django 3.1.2
+- MondoDB Atlas
+- Heroku
+	
+Para o back-end da aplicação será utilizado Python 3.6 juntamente com a coleção de bibliotecas Django 3.1.2 que são bastante úteis na construção de um server para a aplicação.
+
+Também será  utilizado MongoDB Atlas para a base de dados juntamente com Heroku, que é uma plataforma em nuvem (PaaS - Platform as a service) que suporta várias tecnologias para a hospedagem de aplicações.
 
 ## 🚀 Desenvolvimento
 
