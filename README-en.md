@@ -45,12 +45,15 @@ The application layout is available on Figma [clicking here].
 
 The following tools are used in the construction of the project:
 
-- [ ] React Native version xx
-- [ ] Python version xx
-- [ ] MongoDB version xx
-- [ ] Heroku version xx
-- [ ] Digital Ocean version xx
-- [ ] Docker version xx
+### Frontend
+- JavaScript
+- React Native 0.63.3
+
+### Backend
+- Python 3.6
+- Django 3.1.2
+- MondoDB Atlas
+- Heroku
 
 ## 🚀 Development
 
